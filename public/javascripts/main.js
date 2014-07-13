@@ -11,5 +11,6 @@ require([
   'order!app'
   ], 
   function(_,Backbone,app){
+    console.log("main.js")
     app.init();
 });
